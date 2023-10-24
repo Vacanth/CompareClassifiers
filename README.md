@@ -35,6 +35,7 @@ Observations:
   Customers between age 29 years to 38 years have signed up for term deposit
   Degree holders have signed up more
   Target variable shows an imbalance ratio of 89:11
+  ![Screenshot](CustomerAge.png)
   
 
 ## Data Preparation
@@ -46,7 +47,7 @@ Scikit-learn classification models - RandomForest, LogisticRegression,DecisionTr
 
 ## Evaluation
 ![Screenshot](Classifiers_Comparison.png)
-![Screenshot](Ridge_model.png)
+
 
 
 ## Recommendations
