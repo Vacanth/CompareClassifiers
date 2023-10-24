@@ -51,14 +51,9 @@ Scikit-learn classification models - RandomForest, LogisticRegression,DecisionTr
 
 
 ## Recommendations
-Pickup and SUV are command 60% higher price when compared to sedan
-White and Black colored vehicles are lot more available than any other colors
-Majority of the cars have put in less than 10k miles per year in 10 year range, thereby indicating that consumers are switching to newer vehicles. This gives an opportunity to source low odometer vehicles.
-Average vehicle is about 10 - 12 years old, which might state that the vehicle can be used for another 10+ years
-Sedan and SUV are the maxmimum vehicle types are available with clean title, automatic drive
-Majority of the vehicles are automatic with very few manual shift. This indicates to source just the automatic transmission
+DecisionTree and KNearestNeighbor classifier with tuned hyperparameters are the best performing classifier and does not overfit on the training data. This model can be deployed to production for sales,customer service team to access quickly and provide necessary marketing data for customers to decide on opening an deposit account.
 
 ## Conclusion
-Close to 78% of the samples were discarded, thereby overfitting the model. Ridge regression model performed slightly better than linear or lasso. For the model to be effective, will need higher quality data. Using this, a recommendation model can be developed used salesmam to access high quality vehicles which can be sold faster. 
+DecisionTree classifier or KNearestNeighbor classifier is the best model to target customers. SVM took a long time to train and might be not be suitable for dataset with large samples. Logistic regression classifier accuracy could not be improved after tuning.
 
 
